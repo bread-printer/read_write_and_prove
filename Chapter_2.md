@@ -77,4 +77,18 @@ Problem 2.3:
 | F | T | T | T |
 | F | F | T | T |
 
-Since both statements have the same tautology they are in equivalence
+Since both statements have the same tautology they have equivalence
+
+Problem 2.6:
+Write out the truth table for the statement form (P -> (~R V Q)) ∧ R)
+
+| P | Q | R | (P -> (~R V Q)) ∧ R) |
+| --- | --- | --- | --- |
+| T | T | T | T |
+| T | T | F | F |
+| T | F | T | F |
+| T | F | F | F |
+| F | T | T | T |
+| F | F | T | F |
+| F | T | F | F |
+| F | F | F | F |
