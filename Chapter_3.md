@@ -38,3 +38,15 @@ P -> Q: If it rains, I wear a coat
 | F | T | T (If I wear a coat, it is not raining) |
 | F | F | T (If I don't wear a coat, it is not raining) |
 
+
+(Practice) Theorem 3.3
+*Let x be an integer. If x^2 is odd, then is x is odd*
+This statement has (P -> Q) where if x^2 is odd, then is x is odd. Then if x is not odd, then x is even and an even multiplied by an even is even (2n * 2n = 4n^2, but this is clearly divisible by 2), so x^2 is even. THen by law of contrapositives, this theorem holds QED. 
+
+There are also statements similiar to contrapositives that changes with the implications. These are called *inverse* and *converse*
+
+*Converse* : Q -> P, a flip where the non-negated conclusion implies the non-negated hypothesis
+
+*Inverse* : ~P -> ~Q, the implication is negated
+
+
