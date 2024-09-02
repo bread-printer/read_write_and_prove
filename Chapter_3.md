@@ -22,4 +22,19 @@ Negate the following:
 Tautologies allow us to replace one statement by another. This will allow us to solve other statemnents if they have the same tautologies then proving or disproving the statements if they have equivalence.
 Take for example: *x is an odd and a prime* then since we know that primes are not divisible by any number and odds are any numbers NOT divisible by 2, then by equivalence x is an odd and a prime.
 
-Now consider from our implication, we want that the second statement is true due to the first statement and we cannot have that the first statement be TRUE and the second one be FALSE. 
+Now consider from our implication, we want that the second statement is true due to the first statement and we cannot have that the first statement be TRUE and the second one be FALSE. In such a case P -> Q <=> ~P V Q. What if there a statement that swaps the first statement (hypothesis) and the second statement (conclusion) amd negates them AND yet is still true? This is called the *contrapositive*.
+
+Why should we care about the *contrapositive*?
+Take the essence of the contrapositive... This negates the conclusion and implies that the hypothesis is wrong and with the implication feature, this shows that if the conclusion is not true, then the hypothesis must also be false. So the lack of truth in the negation of the conclusion then shows that the hypothesis must be true as well.
+
+Truth Table of Contrapositive
+
+P -> Q: If it rains, I wear a coat
+
+| P | Q | ~Q -> ~P (If I don't wear a coat, it is not raining) |
+| --- | --- | --- |
+| T | T | T (If I wear a coat, it is raining.)  |
+| T | F | F (If I don't wear a coat, it is raining) |
+| F | T | T (If I wear a coat, it is not raining) |
+| F | F | T (If I don't wear a coat, it is not raining) |
+
