@@ -20,4 +20,6 @@ Negate the following:
   2. P -> (Q ∧ R) ==> ~P ∧ ~(Q ∧ R) ==> ~P ∧ (~Q V ~R)
 
 Tautologies allow us to replace one statement by another. This will allow us to solve other statemnents if they have the same tautologies then proving or disproving the statements if they have equivalence.
-Take for 
+Take for example: *x is an odd and a prime* then since we know that primes are not divisible by any number and odds are any numbers NOT divisible by 2, then by equivalence x is an odd and a prime.
+
+Now consider from our implication, we want that the second statement is true due to the first statement and we cannot have that the first statement be TRUE and the second one be FALSE. 
