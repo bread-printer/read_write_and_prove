@@ -49,4 +49,51 @@ There are also statements similiar to contrapositives that changes with the impl
 
 *Inverse* : ~P -> ~Q, the implication is negated
 
+Exercise 3.5
+If n is odd, then n^2 - n - 6 is even
+a. Contrapositive: if n^2 - n -6 is not even them n is even
+b. Converse: if n^2 - n - 6 is even them n is odd
+
+Exercise 3.6
+a.
+| P | Q | ~P -> ~Q |
+| --- | --- | --- |
+| T | T | T |
+| T | F | T |
+| F | T | F |
+| F | F | T |
+
+b. The inverse is the converse of the contrapostive since it has equivalence to the converse, hence its contrapositive.
+c. Since the inverse and the converse of P -> Q has the same truth tables, they are in equivalence. So they function in the same way.
+
+
+---
+Problems
+--- 
+3.1) 
+a) (Q -> P) <=> ~(P -> Q)
+b The contrapositive is the equivalence of P -> Q so (P -> Q) <=> (~Q -> ~P)
+
+3.3)
+a. If you are the President of the United States, then you live in a white house
+  - Contrapositive: if you don't live in a white house, then you are not the president of the United States
+  - Converse: if you live in a white house, then you are the president of the United States
+b. If you are going to bake a souffle, then you need eggs
+  - Contrapositive: if you don't need eggs, then you aren't making the souffle
+  - Converse: If you need eggs, then you're making a souffle
+c. If x is a real number, then x is an integer
+  - Contrapositive: If x is not integer, then x is not a real number
+  - Conversee: If x is an integer, then x is not a real number
+d. If x is a real number,then x^2 < 0
+  - Contrapositive: If x^2 >= 0, then x is not a real number
+  - Converse: If x^2 < 0, then x is a real numer
+
+3.6)
+a. If it does not rain, it does not pour
+b. If am not living abroad, then I do not need brownies.
+c. To not run quickly, it is not sufficent to have long legs.
+d. To not make good chocolate cookies, it is not necessary to have baking soda.
+
+3.9)
+
 
