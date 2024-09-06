@@ -112,3 +112,17 @@ Consider P -> Q and P -> (Q V ~P)
 
 Since they have the same truth values then they are in equivalence. 
 
+3.14)
+Let n be an integer. Prove that if 3n is odd then n is odd.
+
+Assume that x is an integer and n is even such that n = 2x. Thus with 3n = 3(2x) = 6x. Thus since 6x is an even number (being a multiple of 2), by the law of contrapositve, if 3n is odd then n is odd. 
+
+3.15)
+Let x be a natural number. Prove that if x is odd, then √(2x) is not an integer.
+
+Assume that √(2x) = n where is n is an integer. then n^2 = 2x then n^2 is even. Hence n = 2m for some integer m. Thus n^2 = (2m)^2  = 4(m^2). Given that √(4(m^2)) = 2m then x is an even integer. Thus by contrapositive, if x is odd, then √(2x) is not an integer.
+
+3.18)
+Prove that if the product of two integers x and y is odd, then both integers are odd. 
+
+Assume that x or y is even integer and the other number is odd. Then the product is such that x = 2n and y = 2m + 1 then x * y = 2n * (2m + 1) = 4nm + 2n. Thus creates a sum of two postive integers, then by the law of contrapositive, if the product of two integers x and y is odd, then both integers are odd.
