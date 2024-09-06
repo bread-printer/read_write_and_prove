@@ -95,5 +95,20 @@ c. To not run quickly, it is not sufficent to have long legs.
 d. To not make good chocolate cookies, it is not necessary to have baking soda.
 
 3.9)
+Let x and y be real numbers. Show that if x =/= y  then 2x + 4 =/= 2y + 4
 
+Proof:
+Let x and y be real numbers and assume 2x + 4 = 2y + 4. Using algebra, we find that 2x + 4 = 2y + 4 ==> 2x = 2y ==> x = y. Thus when 2x + 4 = 2y + 4, x = y.  By law of contrapositive, when x =/= y then 2x + 4 =/= 2y + 4. 
+
+3.12
+Consider P -> Q and P -> (Q V ~P)
+
+| P | Q | P -> Q | P -> (Q V ~P) |
+| --- | --- | --- | --- |
+| T | T | T | T |
+| T | F | F | F |
+| F | T | T | T |
+| F | F | T | T |
+
+Since they have the same truth values then they are in equivalence. 
 
