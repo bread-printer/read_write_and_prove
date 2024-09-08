@@ -12,4 +12,38 @@ We write x ∈ X s.t. x is an element of "X"
 Example: _S = {x ∈ X: x satisfies P}_
 Some common sets:
 
-Natural Numbers N
+Natural Numbers _N_ = {0,1,2,3,...}
+Integers _Z_ = {..., -2, -1, 0, 1, 2, ...}
+Rational Numbers _Q_ = {_p/q_ : p, q ∈ Z and q =/= 0}
+Real Numbers _R_
+Complex Numbers _C_ = {a + bi: i^2 = -1, a, b ∈ R}
+Plane R^2 = {_(x, y)_} : x,y ∈ _R_}
+For n ∈ Z+, Euclidean _n_-Space R^n = {(x1, x2, ... ,x): x(j) ∈ _R_ for j: 1,2, ... , n}
+
+
+" [] " is inclusive bounds {_a <= x <= b_} : a,b,x ∈ _U_}
+" () " is exclusive bounds {_a < x < b_} : a,b,x ∈ _U_}
+
+Example 4.1
+a. {x ∈ _Z_ : x^2 = 1} ==> x is a integer such that x^2 = 1
+b. {x ∈ _N_ : x^2 = 1} ==> x is a natural number such that x^2 = 1
+c. {(x,y) ∈ R^2 : y = 0} ==> x and y are elements of R^2 such that y = 0
+d. {(x,y,z) ∈ R^3 : z = 0} ==> x, y, z are elements of R^3 such thast z = 0
+e. {x ∈ Z : x is even} ==> x is an integer such that x is even
+f.{(m,n) : m,n ∈ Z} ==> m and n are elements of a set such that m and n are integers
+
+In mathematics, in order to determine the truth or falsitity of a statement, we need to know whether we are talking about a particular x or all x.
+
+_∈:_ An element of
+_∃:_ There exists, an element of 
+_∀:_ For all, for every element
+
+"For all x, x satisfies the inequality, x^2 - 1 < 0" <=>  ∀x, x^2 - 1 < 0
+"For all x, x is part of a sentence p(x)" <==> ∀x, p(x)
+"There is an integer x such that x = 0" <==> ∃x, (x=0)
+
+To make all these things happen, we must use a conjuction rather than an implication.
+
+Example 4.2 
+a. ∀x, x ∈ 
+[
