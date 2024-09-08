@@ -9,4 +9,7 @@ We write x ∈ X s.t. x is an element of "X"
 
 *Universe:* The set of all possible objects that are considered for a given context. 
 
-_S_ *S*
+Example: _S = {x ∈ X: x satisfies P}_
+Some common sets:
+
+Natural Numbers N
