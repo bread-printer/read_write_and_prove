@@ -59,6 +59,14 @@ f. ∀x, (x ∈ Q -> (x^2 - Π =/= 0))
 g. ∀x, ((x =/= 0) -> x^2 > 0))
 h. ∀x, ((x > 0) -> (4 < x < 6)
 
-For negation  with "for all" (∀x, px), use "there exists" (∃x, ~p(x)). This shows that not all elements are viable for the statement since there is an elment that negates the universe
+For negation  with "for all" (∀x, p(x)), use "there exists" (∃x, ~p(x)). This shows that not all elements are viable for the statement since there is an elment that negates the universe. similarly, with "there exists" (∃x, p(x)) you can do (∀x, ~p(x)).
+
+Example 4.4
+There exists a person who lives in a glass house who also throws stones.
+
+Example 4.5
+Negate the following: "For every rational number x, there exists an integer n that is greater than x"
+> There exists a rational number x, for all integers n such that n is less than or equal to x
+
 
 
