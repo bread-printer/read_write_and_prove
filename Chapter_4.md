@@ -68,5 +68,10 @@ Example 4.5
 Negate the following: "For every rational number x, there exists an integer n that is greater than x"
 > There exists a rational number x, for all integers n such that n is less than or equal to x
 
+Exercise 4.7
+a. ∀x, (p(x) ∧ q(x)) -> r(x)
+Contrapositive: ∃x, ~r(x) -> (~p(x) V ~q(x)) :: ∀x, (p(x) ∧ q(x)) -> r(x)
+Converse: ∀x, r(x) -> (p(x) ∧ q(x)) :: ∃x, (~p(x) V ~q(x)) -> ~r(x) 
+
 
 
