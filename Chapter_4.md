@@ -80,6 +80,17 @@ Contrapositive: If there is not a number is an integer with square root less tha
 Converse: If there is a real number with square root less than 8, then that number is greater than or equal to 50 and less than or equal to 100.
 
 
+## Tips on Quantifaction
+- Check the universe for each of the variables.
+- When a quantifier on a variable in a statement is a universal quantifier, it implied in the writing. Example: "If x is negative, then x^2 is positive" ==> "For all real numbers, if x is negtive,  then x^2 is positive".
+- Suppose a statement restricts a variable _x_ to a proper subset _A_ of the universe. "For all x ∈ A, property p(x) holds". This is an implication of: "∀x,(x ∈ A -> p(x))
+- Suppose a statement restricts the variable to a proper subset A of the universe as in the statement form. "For some x ∈ A, property p(x) holds". This is a conjuction of: "∃x,(x ∈ A ∧ p(x))"
+- Just do negation if its easy
+- Write out the complicated statements in symbols. Check if you can write implication.
+- Do not use logical connectives between quantifiers. NO ∀x V ∀y for example
+- The most important negation is one many forget: the negation of an implication.
+- Practice. If you get a theorem or a definition, try negating it to see how it can work or not.
+
 
 
 
