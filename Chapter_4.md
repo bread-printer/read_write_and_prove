@@ -69,9 +69,17 @@ Negate the following: "For every rational number x, there exists an integer n th
 > There exists a rational number x, for all integers n such that n is less than or equal to x
 
 Exercise 4.7
+
 a. ∀x, (p(x) ∧ q(x)) -> r(x)
-Contrapositive: ∃x, ~r(x) -> (~p(x) V ~q(x)) :: ∀x, (p(x) ∧ q(x)) -> r(x)
-Converse: ∀x, r(x) -> (p(x) ∧ q(x)) :: ∃x, (~p(x) V ~q(x)) -> ~r(x) 
+Contrapositive: ∀x, ~r(x) -> (~p(x) V ~q(x)) :: ∃x, r(x) ∧ (p(x) ∧ q(x))
+Converse: ∀x, r(x) -> (p(x) ∧ q(x)) :: ∃x, (~p(x) V ~q(x)) -> ~r(x)
+
+b. If there is a real number strictly between 50 and 100, then that number is an integer with square root less than 8
+Contrapositive: If there is not a number is an integer with square root less than 8, then that mumber is not a real number and it is less than 50 or greater than 100. :: 
+
+Converse: If there is a real number with square root less than 8, then that number is greater than or equal to 50 and less than or equal to 100.
+
+
 
 
 
