@@ -45,4 +45,4 @@ For the final case, assume x < 0, y < 0: |xy| = (-(-x))(-(-y)) = x * y = |x| * |
 
 
 Theorem 5.4
-Prove: Show that for a real number x, we get -2 <= x < 1 IFF \frac{2x+1}{x-1} <= 1
+Prove: Show that for a real number x, we get -2 <= x < 1 IFF $\frac{2x+1}{x-1} <= 1
