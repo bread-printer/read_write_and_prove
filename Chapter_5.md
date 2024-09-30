@@ -1,4 +1,4 @@
-# Chapter 5
+mk# Chapter 5
 ## Proof Techniques
 
 Here we will cover the three most importatn means of proving:
@@ -47,5 +47,6 @@ For the final case, assume x < 0, y < 0: |xy| = (-(-x))(-(-y)) = x * y = |x| * |
 Theorem 5.4
 Prove: Show that for a real number x, we get -2 <= x < 1 IFF $\frac{2x+1}{x-1}$ <= 1
 
-Proof: Let x be a real number, then:
+Proof: Let x be a real number such that -2 <= x < 1. First we will prove with -2 <= x < 1 --> $\frac{2x+1}{x-1}$ <= 1. 
+When x = -2: (2(-2) + 1)/(-2 -1) = -3/ -3 = 1; when x = 1: (2(1) +1)/(1 -1) = 3/0 which is undefined so we try with x = 0 as an alternative real integer that is close to 1: (2(0) + 1)/(0 -1) = (1)/(-1) = -1 which is less than 1. Here we have proved the first part with the direct implication. Then with $\frac{2x+1}{x-1}$ <= 1 --> $\frac{(2x+1)(x-1)}{x-1}$ <= 1(x - 1) --> 2x + 1 <= x -1 --> x <= -2. The only way both of these can be true is if x = -2. Then if x - 1 ≥ 0, then x ≥ 1, which would make (2x+1)/(x-1) > 1. Thus if -2 <= x < 1, then $\frac{2x+1}{x-1}$ <= 1. Thus we have proven the equivalence. 
 
